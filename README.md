@@ -4,6 +4,7 @@ The programs run in this pipeline are:
 * ParDRE - removes artifact duplicates from the paired end reads  
 * kallisto - does pseudoalignment on the reads to a transcriptome  
 * DESeq - does statistical analysis on the differential expressions between case and controls  
+* Additional scripts I created to generate plots and graphs on the data in the intermediate files  
 
 The files are split into the programs run in bash using a python script and a R script to run the R program.
 
