@@ -1,4 +1,7 @@
 # RNAseq-container
+
+This pipeline is used to take in RNA paired end reads and filter the reads based off quality and duplications, then align the reads to a transcriptome and calculate the statistical significance of differential expression between cases and controls.  
+
 The programs run in this pipeline are:
 * fastp - does quality control filtering on paired end reads  
 * ParDRE - removes artifact duplicates from the paired end reads  
