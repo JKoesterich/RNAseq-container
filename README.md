@@ -31,6 +31,9 @@ The script will run DESeq and will calculate gene rankings based on the -log(pva
 The output of this program is the differential expressions of the genes as well as a subset of the top 100 differentially expressed genes.  
 
 
-
+### Singularity container  
+These scripts and the programs have been combined into a singularity container.  
+The container has the versions of the programs tests to work together as well as having set paths for the scripts to call.  
+The container also ensures that the programs can run on any OS even if the versions of the OS and programs are not compatible as long as the OS can run singularity.  
 
 
