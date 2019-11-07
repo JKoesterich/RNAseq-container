@@ -48,7 +48,7 @@ These fastq files and the input file are inside the container under the /Test/ f
 ## Running the container  
 
 ### Shelling into container
-`singularity shell DeKal_V0.06.simg` This opens the container to allow interaction between directory and inside container.
+`singularity shell DeKal_V0.06.simg` This opens the container to allow interaction between directory and inside container.  
 `python /PyRcodes/automated_rna_insing.py /Test/pipeline_input_file.txt` This will run the script and reads in the test input file located in the /Test directory inside the container.  
 `exit` This will take the user out of the container.  
 
